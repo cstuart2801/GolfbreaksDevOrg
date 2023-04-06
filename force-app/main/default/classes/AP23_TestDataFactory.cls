@@ -23,7 +23,7 @@ Ver. Author        Date         Detail
 */
 @isTest
 public with sharing class AP23_TestDataFactory {
-
+/*
     public static Map<String, Id> getRecordType(String objectName) {
         List<RecordType> Rectypes = [SELECT Name, Id FROM RecordType WHERE sObjectType = :objectName AND isActive = TRUE];
         Map<String, Id> RecordTypes = new Map<String, Id> {};
@@ -1325,7 +1325,7 @@ public with sharing class AP23_TestDataFactory {
             sObjectMap.put((Id)record.get('Id'),record);
         }
         return sObjectMap;
-    }
+    }*/
 
     //1.9 - Generate GUID (This method will succesfully generate a Global Unique Identifier (GUID))
     public static List<String> generateGuid(Integer num){

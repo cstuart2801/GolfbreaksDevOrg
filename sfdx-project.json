@@ -7,6 +7,6 @@
   ],
   "name": "CSSandbox_GB",
   "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sfdcLoginUrl": "https://golfbreaks--newstarter.sandbox.my.salesforce.com",
   "sourceApiVersion": "56.0"
 }
