@@ -19,7 +19,7 @@ public with sharing class GenerateGuidActionTest {
     static void generateGuidTest(){
     
         // Insert test data
-        List<String> guidList = PlatformTestDataStorage.generateGuid(100);
+        List<String> guidList = AP23_TestDataFactory.generateGuid(100);
         
         System.assertEquals(35, guidList[0].length(), 'Guid Should be 35 digit\'s long'); 
         System.assertEquals(100, guidList.size(), 'List should be 100');       
