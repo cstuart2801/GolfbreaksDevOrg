@@ -6,18 +6,18 @@ GenerateGuidAction.cls
 ========================================================
 Purpose:
 -------
-
+Invocable class to allow functionaitlity to be pass through Apex Actions
 ========================================================
 ========================================================
 Verison     Author         Date           Detail
-v1.0        C Stuart       xx-xx-xx       
+v1.0        C Stuart       06-04-23      Inital Development - add generateGuid method
 */
 global with sharing class GenerateGuidAction {
     
     /***************************************\
     @Method Name : generateGuid
     @Author      : Chandler Stuart
-    @Description : Apex Action to be pass through a Flow, to generate a 16 digit GUID for the Password reset token
+    @Description : Invocable method added to allow code to be executed via flow & return a output value of a GUID
     @Return      : Returns a 16 digit guid
     /***************************************/
 
